@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Mesto</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="images/header-logo.svg" alt="Логотип">
+    </header>
+    <main>
+      <section class="profile">
+        <img class="profile__image"  src="images/profile-avatar.jpg" alt="Аватарка">
+        <div class="profile__info">
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__edit" aria-label="Изменить имя" type="button"></button>
+          <p class="profile__about">Исследователь океана</p>
+        </div>
+        <button class="profile__add" aria-label="Добавить фото" type="button"></button>
+      </section>
+      <section class="cards">
+        <ul class="cards__list">
+          <template id="card-template">
+            <li class="card">
+              <img class="card__image" src="" alt="">
+              <button class="card__delete" aria-label="удалить" type="button"></button>
+              <div class="card__description">
+                <h2 class="card__title"></h2>
+                <button class="card__button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__author">&copy; 2020 Mesto Russia</p>
+    </footer>
+  </div>
+
+  <div class="popup popup_type_profile"> <!-- popup_opened -->
+    <div class="popup__container popup__container_type_profile">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form popup__form_type_profile" action="#" method="POST" name="myForm">
+        <input class="popup__input popup__input_type_name" name="formName" type="text" placeholder="Жак-Ив кусто" value="Жак-Ив кусто" required>
+        <input class="popup__input popup__input_type_about" name="formAbout" type="text" placeholder="Исследователь океана" value="Исследователь океана" required>
+        <button class="popup__save" aria-label="Сохранить" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_type_cards">
+    <div class="popup__container popup__container_type_cards">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <h2 class="popup__title">Новое место</h2>
+      <form class="popup__form popup__form_type_cards" action="#" method="POST" name="myForm">
+        <input class="popup__input popup__input_type_name" name="formName" type="text" placeholder="Название" required>
+        <input class="popup__input popup__input_type_link" name="formLink" type="text" placeholder="Ссылка на картинку" required>
+        <button class="popup__save" aria-label="Создать" type="submit">Создать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_type_image">
+    <div class="popup__container popup__container_type_image">
+      <button class="popup__close" aria-label="Закрыть" type="button"></button>
+      <img class="popup__image" src="" alt="">
+      <h2 class="popup__name"></h2>
+    </div>
+  </div>
+
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
