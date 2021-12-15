@@ -1,0 +1,13 @@
+.header__sup-image {
+  visibility: hidden;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__sup-image {
+    visibility: visible;
+    left: 590px;
+    top: 40px;
+  }
+}

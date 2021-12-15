@@ -4,75 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>Mesto</title>
+  <title>Soda</title>
 </head>
 <body class="body">
   <div class="page">
     <header class="header">
-      <img class="header__logo" src="images/header-logo.svg" alt="Логотип">
+      <div class="header__column">
+        <h1 class="header__logo">soda</h1>
+        <img class="header__image" src="./images/header-soda.jpg" alt="Изображение прекрасной содовой">
+        <img class="header__sub-image" src="./images/header-pineapple.png" alt="Ананас">
+      </div>
+      <div class="header__column">
+        <img class="header__sup-image" src="./images/header-made_in_earth.png" alt="Сделано на Земле">
+        <h2 class="header__title">Вкусные лимонады из фруктов</h2>
+        <a class="header__link" href="">Подробнее</a>
+      </div>
     </header>
     <main>
-      <section class="profile">
-        <img class="profile__image"  src="images/profile-avatar.jpg" alt="Аватарка">
-        <div class="profile__info">
-          <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <button class="profile__edit" aria-label="Изменить имя" type="button"></button>
-          <p class="profile__about">Исследователь океана</p>
-        </div>
-        <button class="profile__add" aria-label="Добавить фото" type="button"></button>
+      <section class="separator">
+        <p class="separator__text">Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — Fresh — </p>
       </section>
-      <section class="cards">
-        <ul class="cards__list">
-          <template id="card-template">
-            <li class="card">
-              <img class="card__image" src="" alt="">
-              <button class="card__delete" aria-label="удалить" type="button"></button>
-              <div class="card__description">
-                <h2 class="card__title"></h2>
-                <button class="card__button" aria-label="Лайк" type="button"></button>
-              </div>
-            </li>
-          </template>
-        </ul>
+      <section class="about">
+        <h2 class="about__heading">Как это работает?</h2>
+        <div class="about__container">
+          <div class="about__container_place_top">
+            <h3 class="about__title">Вкусы</h3>
+            <p class="about__subtitle">Пейте фрукты, а не газировку со вкусовыми добавками, наши лимонады на 100% натуральны!</p>
+            <img class="about__image" src="/images/about-taste-image.jpg" alt="Бутылка содовой в воде">
+          </div>
+          <div class="about__container_place_bottom">
+            <h3 class="about__title">Состав</h3>
+            <p class="about__subtitle">Наши натуральные лимонады делаются из натуральных компонентов.</p>
+            <img class="about__top-circle" src="/images/about-circle-top.png" alt="">
+            <img class="about__down-circle" src="/images/about-circle-down.png" alt="">
+            <ul class="about__list">
+              <li class="about__item">Сок</li>
+              <li class="about__item">Пюре</li>
+              <li class="about__item">Вода</li>
+              <li class="about__item">Пузыри</li>
+              <li class="about__item">Витамины</li>
+            </ul>
+            <a class="about__link" href="">Попробовать</a>
+          </div>
+        </div>
+      </section>
+      <section class="nature">
+        <h2>SODA — натуральные лимонады!</h2>
+        <img class="nature__image" src="/images/nature-soda.png" alt="Манговая сода">
+        <img class="nature__sup-image" src="/images/nature-mango.png" alt="Манго">
+      </section>
+      <section class="samples">
+        <h2 class="samples__title">Сэмплы</h2>
+        <p class="samples__subtitle">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!</p>
+        <form action="">
+          <h3 class="samples__form-title"></h3>
+          <p class="samples__input-title">Имя *</p>
+          <input class="samples__input samples__input_type_name" type="text">
+
+          <p class="samples__input-title">Фамилия *</p>
+          <input class="samples__input samples__input_type_name" type="text">
+
+          <p class="samples__input-title">Email *</p>
+          <input class="samples__input samples__input_type_name" type="">
+        </form>
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__author">&copy; 2020 Mesto Russia</p>
+      <div class="footer__columns">
+        <div class="footer__column">
+          <img class="footer__logo" src="./images/footer-logo.png" alt="">
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Меню</h3>
+          <ul class="footer__links">
+            <li class="footer__link">Вкусы</li>
+            <li class="footer__link">Состав</li>
+            <li class="footer__link">Семплы</li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Контакты</h3>
+          <ul class="footer__contacts">
+            <li class="footer__email">connect@soda.io</li>
+            <li class="footer__email">press@soda.io</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy; 2021 Soda, Inc. All Rights Reserved.</p>
     </footer>
   </div>
-
-  <div class="popup popup_type_profile"> <!-- popup_opened -->
-    <div class="popup__container popup__container_type_profile">
-      <button class="popup__close" aria-label="Закрыть" type="button"></button>
-      <h2 class="popup__title">Редактировать профиль</h2>
-      <form class="popup__form popup__form_type_profile" action="#" method="POST" name="myForm">
-        <input class="popup__input popup__input_type_name" name="formName" type="text" placeholder="Жак-Ив кусто" value="Жак-Ив кусто" required>
-        <input class="popup__input popup__input_type_about" name="formAbout" type="text" placeholder="Исследователь океана" value="Исследователь океана" required>
-        <button class="popup__save" aria-label="Сохранить" type="submit">Сохранить</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="popup popup_type_cards">
-    <div class="popup__container popup__container_type_cards">
-      <button class="popup__close" aria-label="Закрыть" type="button"></button>
-      <h2 class="popup__title">Новое место</h2>
-      <form class="popup__form popup__form_type_cards" action="#" method="POST" name="myForm">
-        <input class="popup__input popup__input_type_name" name="formName" type="text" placeholder="Название" required>
-        <input class="popup__input popup__input_type_link" name="formLink" type="text" placeholder="Ссылка на картинку" required>
-        <button class="popup__save" aria-label="Создать" type="submit">Создать</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="popup popup_type_image">
-    <div class="popup__container popup__container_type_image">
-      <button class="popup__close" aria-label="Закрыть" type="button"></button>
-      <img class="popup__image" src="" alt="">
-      <h2 class="popup__name"></h2>
-    </div>
-  </div>
-
-  <script src="./scripts/index.js"></script>
+  <!--<script src="./scripts/index.js"></script>-->
 </body>
 </html>

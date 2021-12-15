@@ -1,0 +1,7 @@
+.header {
+  position: relative;
+  background: #9960F6;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  max-height: 760px;
+}
