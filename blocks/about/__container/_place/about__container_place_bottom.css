@@ -4,3 +4,10 @@
   justify-content: space-between;
   position: relative;
 }
+
+@media screen and (max-width: 1439px) {
+  .about__container_place_bottom {
+    flex-direction: column;
+    position: relative;
+  }
+}

@@ -4,3 +4,9 @@
   border-bottom: 2px solid #fff;
   width: 310px;
 }
+
+@media screen and (max-width: 1439px) {
+  .samples__input {
+    width: 99%;
+  }
+}

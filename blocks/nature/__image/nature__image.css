@@ -2,3 +2,9 @@
   margin: 19px 180px -100px auto;
   z-index: -1;
 }
+
+@media screen and (max-width: 1439px) {
+  .nature__image {
+    margin: 0 auto -100px auto;
+  }
+}

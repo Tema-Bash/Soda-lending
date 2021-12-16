@@ -2,3 +2,10 @@
   width: 100%;
   margin: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__column:last-of-type {
+    display: flex;
+    justify-content: space-between;
+  }
+}

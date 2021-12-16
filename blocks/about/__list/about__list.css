@@ -3,3 +3,10 @@
   margin: 90px 100px 0 auto;
   padding: 0;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .about__list {
+    margin: 100px auto 185px 60px;
+  }
+}

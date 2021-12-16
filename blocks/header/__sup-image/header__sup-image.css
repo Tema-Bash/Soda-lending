@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1439px) {
   .header__sup-image {
     visibility: visible;
     left: 590px;

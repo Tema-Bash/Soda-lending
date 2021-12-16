@@ -13,3 +13,13 @@
   margin-left: 100px;
   align-self: flex-start;
 }
+
+@media screen and (max-width: 1439px) {
+  .about__link {
+    position: absolute;
+    margin: 0;
+    bottom: 60px;
+    left: 60px;
+    margin: 0;
+  }
+}

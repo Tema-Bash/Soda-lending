@@ -4,6 +4,15 @@
 }
 
 .samples__input_type_email .samples__input {
-
   width: 630px;
+}
+
+@media screen and (max-width: 1439px) {
+  .samples__input_type_email {
+    width: 99%;
+  }
+  
+  .samples__input_type_email .samples__input {
+    width: 100%;
+  }
 }

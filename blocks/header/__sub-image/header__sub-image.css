@@ -3,3 +3,10 @@
   left: 758px;
   top: 601px;
 }
+
+@media screen and (max-width: 1440px) {
+  .header__sub-image {
+    left: 550px;
+    top: 544px;
+  }
+}

@@ -9,3 +9,11 @@
   background: #FFDB00;
   padding: 12px 30px;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .header__link {
+    align-self: center;
+    margin-right: 50px;
+  }
+}

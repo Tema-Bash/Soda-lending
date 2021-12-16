@@ -2,3 +2,9 @@
   background: #CEF564;
   font-family: "Inter", sans-serif;
 }
+
+@media screen and (max-width: 1439px) {
+  .samples {
+    margin: 0 50px;
+  }
+}

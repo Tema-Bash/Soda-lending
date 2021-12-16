@@ -3,3 +3,10 @@
   top: 320px;
   left: 720px;
 }
+
+@media screen and (max-width: 1439px) {
+  .about__down-circle {
+    top: 501px;
+    left: 476px;
+  }
+}

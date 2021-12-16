@@ -5,3 +5,9 @@
 .footer__column:first-of-type {
   flex-basis: 48%;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__column {
+    min-width: 161px;
+  }
+}

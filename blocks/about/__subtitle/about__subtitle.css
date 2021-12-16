@@ -9,3 +9,9 @@
   margin: 30px 0 0 100px;
   max-width: 386px;
 }
+
+@media screen and (max-width: 1439px) {
+  .about__subtitle {
+    margin: 30px 0 0 60px;
+  }
+}

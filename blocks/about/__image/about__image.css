@@ -1,5 +1,9 @@
 .about__image {
-  /*margin: 90px 100px 90px auto;*/
   margin: 90px 100px 90px 0;
+}
 
+@media screen and (max-width: 1439px) {
+  .about__image {
+    margin: 60px;
+  }
 }
