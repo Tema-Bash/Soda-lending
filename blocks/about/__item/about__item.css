@@ -1,0 +1,10 @@
+.about__item {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  ;
+}

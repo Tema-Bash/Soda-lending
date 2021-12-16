@@ -1,6 +1,8 @@
 .header__sup-image {
   visibility: hidden;
   position: absolute;
+  left: calc(50% - 565px/2 + 597.5px);
+  top: calc(50% - 565px/2 - 1870px);
 }
 
 

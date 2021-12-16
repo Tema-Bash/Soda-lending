@@ -1,0 +1,6 @@
+.about__container_place_bottom {
+  background: #8556F8;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}

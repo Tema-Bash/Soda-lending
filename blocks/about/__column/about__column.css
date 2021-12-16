@@ -1,0 +1,7 @@
+.about__column {
+  width: 100%;
+  color: #fff;
+  max-width: 457px;
+  display: flex;
+  flex-direction: column;
+}

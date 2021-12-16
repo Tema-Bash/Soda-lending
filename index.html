@@ -9,15 +9,17 @@
 <body class="body">
   <div class="page">
     <header class="header">
-      <div class="header__column">
-        <h1 class="header__logo">soda</h1>
-        <img class="header__image" src="./images/header-soda.jpg" alt="Изображение прекрасной содовой">
-        <img class="header__sub-image" src="./images/header-pineapple.png" alt="Ананас">
-      </div>
-      <div class="header__column">
-        <img class="header__sup-image" src="./images/header-made_in_earth.png" alt="Сделано на Земле">
-        <h2 class="header__title">Вкусные лимонады из фруктов</h2>
-        <a class="header__link" href="">Подробнее</a>
+      <div class="header__container">
+        <div class="header__column">
+          <h1 class="header__logo">soda</h1>
+          <img class="header__image" src="./images/header-soda.jpg" alt="Изображение прекрасной содовой">
+          <img class="header__sub-image" src="./images/header-pineapple.png" alt="Ананас">
+        </div>
+        <div class="header__column">
+          <img class="header__sup-image" src="./images/header-made_in_earth.png" alt="Сделано на Земле">
+          <h2 class="header__title">Вкусные лимонады из фруктов</h2>
+          <a class="header__link" href="">Подробнее</a>
+        </div>
       </div>
     </header>
     <main>
@@ -28,23 +30,31 @@
         <h2 class="about__heading">Как это работает?</h2>
         <div class="about__container">
           <div class="about__container_place_top">
-            <h3 class="about__title">Вкусы</h3>
-            <p class="about__subtitle">Пейте фрукты, а не газировку со вкусовыми добавками, наши лимонады на 100% натуральны!</p>
+            <div class="about__column">
+              <h3 class="about__title">Вкусы</h3>
+              <p class="about__subtitle">Пейте фрукты, а не газировку со вкусовыми добавками, наши лимонады на 100% натуральны!</p>
+            </div>
             <img class="about__image" src="/images/about-taste-image.jpg" alt="Бутылка содовой в воде">
           </div>
           <div class="about__container_place_bottom">
-            <h3 class="about__title">Состав</h3>
-            <p class="about__subtitle">Наши натуральные лимонады делаются из натуральных компонентов.</p>
-            <img class="about__top-circle" src="/images/about-circle-top.png" alt="">
-            <img class="about__down-circle" src="/images/about-circle-down.png" alt="">
-            <ul class="about__list">
-              <li class="about__item">Сок</li>
-              <li class="about__item">Пюре</li>
-              <li class="about__item">Вода</li>
-              <li class="about__item">Пузыри</li>
-              <li class="about__item">Витамины</li>
-            </ul>
-            <a class="about__link" href="">Попробовать</a>
+            <div class="about__column">
+              <h3 class="about__title">Состав</h3>
+              <p class="about__subtitle">Наши натуральные лимонады делаются из натуральных компонентов.</p>
+              <a class="about__link" href="">Попробовать</a>
+            </div>
+
+              <img class="about__top-circle" src="/images/about-circle-top.png" alt="">
+              <img class="about__down-circle" src="/images/about-circle-down.png" alt="">
+
+            <div class="about__column">
+              <ul class="about__list">
+                <li class="about__item">Сок</li>
+                <li class="about__item">Пюре</li>
+                <li class="about__item">Вода</li>
+                <li class="about__item">Пузыри</li>
+                <li class="about__item">Витамины</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

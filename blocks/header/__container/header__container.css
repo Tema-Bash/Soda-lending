@@ -1,0 +1,9 @@
+.header__container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  background: url("../../../images/header-top_circle.svg") no-repeat;
+  background-position: 120% -85%;
+}
