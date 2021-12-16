@@ -33,14 +33,45 @@
 @import url(../blocks/about/__item/about__item.css);
 @import url(../blocks/about/__top-circle/about__top-circle.css);
 @import url(../blocks/about/__down-circle/about__down-circle.css);
+/*nature*/
+@import url(../blocks/nature/nature.css);
+@import url(../blocks/nature/__sup-image/nature__sup-image.css);
+@import url(../blocks/nature/__image/nature__image.css);
+@import url(../blocks/nature/__title/nature__title.css);
+/*samples*/
+@import url(../blocks/samples/samples.css);
+@import url(../blocks/samples/__container/samples__container.css);
+@import url(../blocks/samples/__column/samples__column.css);
+@import url(../blocks/samples/__form-title/samples__form-title.css);
+@import url(../blocks/samples/__title/samples__title.css);
+@import url(../blocks/samples/__form/samples__form.css);
+@import url(../blocks/samples/__input/samples__input.css);
+@import url(../blocks/samples/__subtitle/samples__subtitle.css);
+@import url(../blocks/samples/__input/_type/samples__input_type_name.css);
+@import url(../blocks/samples/__input-title/samples__input-title.css);
+@import url(../blocks/samples/__form-container/samples__form-container.css);
+@import url(../blocks/samples/__link/samples__link.css);
+@import url(../blocks/samples/__input/_type/samples__input_type_email.css);
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__email/footer__email.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__title/footer__title.css);
 
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+/*scss
+@import url(../blocks/about.scss);
+@import url(../blocks/footer.scss);
+@import url(../blocks/header.scss);
+@import url(../blocks/nature.scss);
+@import url(../blocks/page.scss);
+@import url(../blocks/samples.scss);
+@import url(../blocks/separator.scss);
+@import url(../blocks/);
+@import url(../blocks/);
+@import url(../blocks/);

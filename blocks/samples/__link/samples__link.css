@@ -1,0 +1,14 @@
+.samples__link {
+  background-color: #A27BFF;
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  align-self: flex-start;
+  text-decoration: none;
+  margin: 180px auto 0px 0px;
+}

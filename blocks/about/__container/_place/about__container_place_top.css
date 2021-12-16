@@ -1,3 +1,4 @@
 .about__container_place_top {
   display: flex;
+  justify-content: space-between;
 }

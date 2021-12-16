@@ -1,0 +1,7 @@
+.footer__column {
+  min-width: 213px;
+}
+
+.footer__column:first-of-type {
+  flex-basis: 48%;
+}

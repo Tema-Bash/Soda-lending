@@ -42,10 +42,8 @@
               <p class="about__subtitle">Наши натуральные лимонады делаются из натуральных компонентов.</p>
               <a class="about__link" href="">Попробовать</a>
             </div>
-
-              <img class="about__top-circle" src="/images/about-circle-top.png" alt="">
-              <img class="about__down-circle" src="/images/about-circle-down.png" alt="">
-
+            <img class="about__top-circle" src="/images/about-circle-top.png" alt="">
+            <img class="about__down-circle" src="/images/about-circle-down.png" alt="">
             <div class="about__column">
               <ul class="about__list">
                 <li class="about__item">Сок</li>
@@ -59,24 +57,35 @@
         </div>
       </section>
       <section class="nature">
-        <h2>SODA — натуральные лимонады!</h2>
+        <h2 class="nature__title">SODA — натуральные лимонады!</h2>
         <img class="nature__image" src="/images/nature-soda.png" alt="Манговая сода">
         <img class="nature__sup-image" src="/images/nature-mango.png" alt="Манго">
       </section>
       <section class="samples">
-        <h2 class="samples__title">Сэмплы</h2>
-        <p class="samples__subtitle">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!</p>
-        <form action="">
-          <h3 class="samples__form-title"></h3>
-          <p class="samples__input-title">Имя *</p>
-          <input class="samples__input samples__input_type_name" type="text">
-
-          <p class="samples__input-title">Фамилия *</p>
-          <input class="samples__input samples__input_type_name" type="text">
-
-          <p class="samples__input-title">Email *</p>
-          <input class="samples__input samples__input_type_name" type="">
-        </form>
+        <div class="samples__container">
+          <div class="samples__column">
+            <h2 class="samples__title">Сэмплы</h2>
+            <p class="samples__subtitle">Хотите получить семплы каждого вкуса, чтобы понять что нравится вам? заполните форму!</p>
+          </div>
+          <form class="samples__form" action="">
+            <h3 class="samples__form-title">Семплы</h3>
+            <div class="samples__form-container">
+              <div class="samples__form-element">
+                <p class="samples__input-title">Имя *</p>
+                <input class="samples__input samples__input_type_name" type="text">
+              </div>
+              <div class="samples__form-element">
+                <p class="samples__input-title">Фамилия *</p>
+                <input class="samples__input samples__input_type_surname" type="text">
+              </div>
+              <div class="samples__form-element samples__input_type_email">
+                <p class="samples__input-title">Email *</p>
+                <input class="samples__input " type="email">
+              </div>
+            </div>
+            <a class="samples__link" href="#">Запросить</a>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -95,12 +104,12 @@
         <div class="footer__column">
           <h3 class="footer__title">Контакты</h3>
           <ul class="footer__contacts">
-            <li class="footer__email">connect@soda.io</li>
             <li class="footer__email">press@soda.io</li>
+            <li class="footer__email">connect@soda.io</li>
           </ul>
         </div>
+        <p class="footer__copyright">&copy; 2021 Soda, Inc. All Rights Reserved.</p>
       </div>
-      <p class="footer__copyright">&copy; 2021 Soda, Inc. All Rights Reserved.</p>
     </footer>
   </div>
   <!--<script src="./scripts/index.js"></script>-->
