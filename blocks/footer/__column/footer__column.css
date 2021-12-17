@@ -10,4 +10,8 @@
   .footer__column {
     min-width: 161px;
   }
+
+  .footer__column:first-of-type {
+    flex-basis: 46%;
+  }
 }

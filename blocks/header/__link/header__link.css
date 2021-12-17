@@ -15,5 +15,6 @@
   .header__link {
     align-self: center;
     margin-right: 50px;
+    margin-bottom: 20px;
   }
 }

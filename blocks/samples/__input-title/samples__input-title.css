@@ -9,3 +9,9 @@
   margin: 0;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1439px) {
+  .samples__input-title {
+    margin-bottom: 24px;
+  }
+}

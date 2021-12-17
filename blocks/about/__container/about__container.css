@@ -3,3 +3,9 @@
   background: #9960F6;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1439px) {
+  .about__container {
+    margin: 0 50px;
+  }
+}

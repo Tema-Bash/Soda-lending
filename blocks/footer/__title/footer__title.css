@@ -7,3 +7,10 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__title {
+    margin-top: 123px;
+    margin-bottom: 20px;
+  }
+}

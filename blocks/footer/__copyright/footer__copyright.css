@@ -10,3 +10,10 @@
   letter-spacing: 0.3px;
   text-align: left;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__copyright {
+    top: 85%;
+    left: 46%;
+  }
+}
