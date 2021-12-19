@@ -2,8 +2,8 @@
   width: 100%;
   font-family: "Inter", sans-serif;
   background-color: #CEF564;
-}
-.separator__text {
+
+&__text {
   padding: 20px 0;
   margin: 0;
   font-size: 30px;
@@ -16,10 +16,10 @@
   overflow: hidden;
   text-transform: uppercase;
   color: #016450;
-}
-@media screen and (max-width: 767px) {
-  .separator__text {
-    font-size: 20px;
-    line-height: 24px;
+
+  @media screen and (max-width: 767px) {
+      font-size: 20px;
+      line-height: 24px;
   }
-}/*# sourceMappingURL=separator.css.map */
+}
+}
